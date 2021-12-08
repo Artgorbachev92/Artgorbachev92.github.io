@@ -1,0 +1,20 @@
+.btn {
+    height: 45px;
+    min-width: 130px;
+    background: $main_color;
+    box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 12px 25px;
+    border-radius: 30px;
+    z-index: 2;
+    animation-duration: 3.0s;
+    animation-name: pulse_btn;
+    animation-iteration-count: infinite;
+    &:hover{
+        color: white;
+    }
+    &__animate {
+        animation-name: contacts_btn;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+    }
+}
