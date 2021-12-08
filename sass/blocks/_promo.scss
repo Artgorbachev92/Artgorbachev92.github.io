@@ -3,6 +3,7 @@
     position: relative;
     background: url('../img/my_main_bg.jpg') no-repeat 100%/cover;
     padding-top: 130px;
+    object-fit: cover;
     &:after {
         content: '';
         position: absolute;
@@ -34,7 +35,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 450px;
+        width: 400px;
  
     }
     &__link {
