@@ -21,7 +21,15 @@
     //     @include before_circle;
     //     padding-left: 12px;
     // }
-    &__text, &__social {
+    &__text{
+        margin-top: 20px;
+        text-align: center;
+        &_red {
+            color: red;
+            text-align: center;
+        }
+    }
+    &__social {
         margin-top: 20px;
         text-align: center;
     }
@@ -90,6 +98,15 @@
         align-items: center;
         input {
             margin-right: 10px;
+        }
+    }
+    &__phone{
+        text-align: center;
+        margin-top: 15px;
+        font-size: 18px;
+        a{
+            text-decoration: underline;
+            color: black;
         }
     }
     

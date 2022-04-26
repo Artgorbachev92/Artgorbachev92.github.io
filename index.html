@@ -102,6 +102,7 @@
                 </a>
             </div>
         </div>
+        
         <div class="menu__overlay"></div>
     </div>
 
@@ -115,8 +116,12 @@
         
         <div class="container">
             <div class="promo__inner">
-                <div class="title title_fz16 promo__subtitle">Меня зовут Артем Горбачев. Мне 29 лет</div>
+                <div class="title title_fz20 promo__subtitle">Меня зовут Артем Горбачев. Мне 29 лет</div>
                 <h1 class="title title_fz48 promo__title">Я Web-разработчик из города Жуковский</h1>
+                <span>
+                    <a href=”tel:+79164075291”>Моб. тел: +7-916-407-52-91</a>
+                </span>
+                
             </div>
             <div class="promo__btns">
                 <a href="#portfolio" class="promo__link btn">Портфолио</a>
@@ -125,6 +130,107 @@
             </div>
         </div>
         <div class="promo__overlay"></div>
+    </section> 
+
+    <section class="about wow fadeInUp" id='about'>
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__photo">
+                    <!-- <img srcset="img/main_photo-min.jpg 300w,
+                                img/main_photo.jpg 400w"
+                    sizes="(max-width: 576) 280px, 
+                            (min-width: 577) 400px"
+                      src='img/main_photo.jpg' alt="photo"> -->
+
+                    <!-- <picture>
+                          <source media="(max-width: 576px)" srcset="img/main_photo-min.jpg">
+                          <source media="(min-width: 577)" srcset="img/main_photo.jpg">
+                          <img src="img/main_photo.jpg" alt="photo">
+                      </picture> -->
+
+                    <picture>
+                        <!-- <source type='image/webp' srcset="img/my_photo.webp"> -->
+                        <img src="img/my_main_photo.jpg" alt="photo">
+                    </picture>
+                </div>
+                <div class="about__descr">
+                    <h2 class="title title_fz16 about__title">Про меня</h2>
+                    <div class="title title_fz36 about__subtitle"> Меня зовут Артём</div>
+                    <div class="divider"></div>
+                    <p class='about__text'>Имею два высших образования - техническое и экономическое. Активно изучаю Web-разработку, а именно HTML, CSS, JavaScript, PHP, WordPress. Ответственно отношусь к выполняемой работе и всегда стараюсь уложиться в отведенные сроки. Добрый, не конфликтный, стараюсь найти общий язык с каждым человеком и сплотить коллектив. Своими главными качествами считаю пунктуальность и честность. В свободное время занимаюсь настольным теннисом и катаюсь на велосипеде. Женат. Воинское звание - лейтенант.</p>
+                </div>
+                <div class="about__skills">
+                    <div class="about__skill">
+                        <div class='about__skill-circle'>
+                            <img src="icons/about_me/web_development.svg" alt="web-dev">
+                        </div>
+                        <div>
+                            <div class="title title_fz16">Верстка</div>
+                            <div class="about__skill-text">
+                                <ul>
+                                    <li>Уверенно владею HTML и СSS</li>
+                                    <li>Знаю фреймворки(Bootstrap), препроцессоры(SASS/SCSS)</li>
+                                    <li>Умею адаптировать верстку под Wordpress</li>
+                                    <li> Знаю методологию БЭМ</li>
+                                    <li> Работаю с графическими редакторами (Marsy, Zeplin, Figma)</li>
+                                </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="about__skill">
+                        <div class='about__skill-circle '>
+                            <img src="icons/about_me/design.svg" alt="web-mob">
+                        </div>
+                        <div>
+                            <div class="title title_fz16">Программирование</div>
+                            <div class="about__skill-text">
+                                <ul>
+                                    <li>Работаю с JavaScript, имею базовые знания Jquery</li>
+                                    <li>Умею работать с Git и GitHub, знаю GitKraken</li>
+                                    <li>Понимаю алгоритмы и принципы ООП</li>
+                                    <li>Использую планировщик задач Gulp и сборщик проектов WebPack</li>
+                                    <li>Умею писать SQL запросы. Понимаю реляционные базы данных</li>
+                                    <li>Изучаю PHP и React</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__skill">
+                        <div class='about__skill-circle about__skill-circle_pl12'>
+                            <img src="icons/about_me/mobile_dev.svg" alt="design">
+                        </div>
+                        <div>
+                            <div class="title title_fz16">Финансы</div>
+                            <div class="about__skill-text">
+                                <ul>
+                                    <li>Разбираюсь в бухгалтерском учете, понимаю управленческий и налоговый учет </li>
+                                    <li>Прошел несколько курсов по 1С.Предприятию и его конфигурации 1С.Управление торговлей</li>
+                                    <li>Есть навыки финансового анализа и планирования</li>
+                                    <li>Свободно владею Excel</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__skill">
+                        <div class='about__skill-circle '>
+                            <img src="icons/about_me/design.svg" alt="design">
+                        </div>
+                        <div>
+                            <div class="title title_fz16">Дополнительно</div>
+                            <div class="about__skill-text"> 
+                                <ul>
+                                    <li>Свободно читаю на английском языке</li>
+                                    <li>Отлично знаю русский язык</li>
+                                    <li>Есть опыт управления коллективом в 8 человек</li>
+                                    <li>Умею составлять техническую документацию (ТЗ, инструкции)</li>
+                                    <li>Умею вести деловую переписку</li>
+                                </ul>
+                                  </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="resume" id='resume'>
@@ -173,7 +279,9 @@
                                         <img src="icons/experience/university.svg" alt="university">
                                     </div>
                                     <h4 class='title title_fz14'>Udemy</h4>
-                                    <div class="resume__item-location">Курс "Web-разработчик 2021"</div>
+                                    <div class="resume__item-location">
+                                        <a href="https://www.udemy.com/course/webdeveloper/learn/lecture/15044554?start=15#overview">Курс "Web-разработчик 2021"</a>
+                                    </div>
                                 </div>
                                 
                             </div>
@@ -184,7 +292,9 @@
                                         <img src="icons/experience/university.svg" alt="university">
                                     </div>
                                     <h4 class='title title_fz14'>Udemy</h4>
-                                    <div class="resume__item-location">Курс "SQL для начинающих: с нуля до сертификата Oracle" </div>
+                                    <div class="resume__item-location">
+                                        <a href="https://www.udemy.com/course/sql-oracle-certification/learn/lecture/16664186?start=0#overview">Курс "SQL для начинающих: с нуля до сертификата Oracle"</a>
+                                    </div>
                                 </div>
                             
                             </div>
@@ -195,12 +305,38 @@
                                         <img src="icons/experience/university.svg" alt="university">
                                     </div>
                                     <h4 class='title title_fz14'>Udemy</h4>
-                                    <div class="resume__item-location">"Полный курс по JavaScript + React"</div>
+                                    <div class="resume__item-location">
+                                        <a href="https://www.udemy.com/course/javascript_full/learn/lecture/18916920?start=15">"Полный курс по JavaScript + React"</a>
+                                    </div>
                                 </div>
                             
                             </div>
 
+                            <!-- <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/university.svg" alt="university">
+                                    </div>
+                                    <h4 class='title title_fz14'>Udemy</h4>
+                                    <div class="resume__item-location">
+                                        <a href="https://www.udemy.com/course/python-python-3/learn/lecture/22352500?start=0#overview">Python разработка</a>
+                                    </div>
+                                </div>
+                            </div> -->
+
                             <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon">
+                                        <img src="icons/experience/university.svg" alt="university">
+                                    </div>
+                                    <h4 class='title title_fz14'>Udemy</h4>
+                                    <div class="resume__item-location">
+                                        <a href="https://www.udemy.com/course/cms-wordpress/learn/lecture/15855698?start=15">Посадка верстки и создание тем на CMS WordPress</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="resume__item">
                                 <div class="resume__item-head">
                                     <div class="resume__item-icon">
                                         <img src="icons/experience/university.svg" alt="university">
@@ -208,8 +344,7 @@
                                     <h4 class='title title_fz14'>Youtube</h4>
                                     <div class="resume__item-location">Лекции Тимофея Хирьянова о программировании </div>
                                 </div>
-                            
-                            </div>
+                            </div> -->
                         </li>
                     </ul>
                 </div>
@@ -223,7 +358,7 @@
                                     <div class="resume__item-icon">
                                         <img src="icons/experience/designer.svg" alt="university">
                                     </div>
-                                    <h4 class='title title_fz14'>Инженер</h4>
+                                    <h4 class='title title_fz14'>Инженер </h4>
                                     <div class="resume__item-location">АО "НИИП им. В.В. Тихомирова"| Жуковский
                                         (2012-наст.время)</div>
                                 </div>
@@ -274,7 +409,7 @@
                     <p>Библиотека Jquery позволит ускорить разработку. Без необходимости интегрировать в проект мы её не
                         будем, но навык работы с ней присутствует</p>
                 </div>
-                <div class="skills__item">
+                <!-- <div class="skills__item">
                     <div class="skills__item-img">
                         <img src="icons/skills/react.svg" alt="">
                     </div>
@@ -296,13 +431,27 @@
                     </div>
                     <h3 class="title title_fz14">Mongo.db</h3>
                     <p>Это нереляционная база данных, которая будет хранить данные вашего сайта или приложения</p>
-                </div>
+                </div> -->
                 <div class="skills__item">
                     <div class="skills__item-img">
                         <img src="icons/skills/figma.svg" alt="">
                     </div>
                     <h3 class="title title_fz14">Figma</h3>
                     <p>Графический редактор для создания прототипов сайта и интерфейсов приложений</p>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-img">
+                        <img src="icons/skills/icons8-wordpress (1).svg" alt="">
+                    </div>
+                    <h3 class="title title_fz14">WordPress</h3>
+                    <p>CMS WordPress. Позволяет управлять контентом на сайте без знаний и навыков программирования</p>
+                </div>
+                <div class="skills__item">
+                    <div class="skills__item-img">
+                        <img src="icons/skills/php.svg" alt="">
+                    </div>
+                    <h3 class="title title_fz14">PHP</h3>
+                    <p>С помощью этого языка программирования происходит взаимодействие с сервером</p>
                 </div>
             </div>
             <!-- <div class="skills__ratings">
@@ -359,14 +508,27 @@
             <div class="divider"></div>
 
             <div class="portfolio__wrapper">
-                <a href="/Uber" class="portfolio__item ">
-                    <img src="img/works/uber.jpg" alt="uber">
+                <a href="/PicturesArt/" class="portfolio__item ">
+                    <img src="img/works/card-2.jpg" alt="Art">
                 </a>
                 <a href="/New-Pulse" class="portfolio__item ">
                     <img src="img/works/pulse.jpg" alt="pulse">
                 </a>
                 <a href="/first_project" class="portfolio__item horizontal">
                     <img src="img/works/mac.jpg" alt="mac">
+                </a>
+                <a href="/BringItUp/" class="portfolio__item horizontal">
+                    <img src="img/works/Bring.jpg" alt="bring">
+                </a>
+                <a href="/DeliveryFood/" class="portfolio__item ">
+                    <img src="img/works/paprika.jpg" alt="Delivery">
+                </a>
+                
+                <a href="/Uber" class="portfolio__item ">
+                    <img src="img/works/uber.jpg" alt="uber">
+                </a>
+                <a href="/WindowInstall/" class="portfolio__item">
+                    <img src="img/works/aluminum.jpg" alt="Window">
                 </a>
             </div>
         </div>
@@ -424,78 +586,6 @@
         </div>
     </section> -->
 
-    <section class="about wow fadeInUp" id='about'>
-        <div class="container">
-            <div class="about__wrapper">
-                <div class="about__photo">
-                    <!-- <img srcset="img/main_photo-min.jpg 300w,
-                                img/main_photo.jpg 400w"
-                    sizes="(max-width: 576) 280px, 
-                            (min-width: 577) 400px"
-                      src='img/main_photo.jpg' alt="photo"> -->
-
-                    <!-- <picture>
-                          <source media="(max-width: 576px)" srcset="img/main_photo-min.jpg">
-                          <source media="(min-width: 577)" srcset="img/main_photo.jpg">
-                          <img src="img/main_photo.jpg" alt="photo">
-                      </picture> -->
-
-                    <picture>
-                        <!-- <source type='image/webp' srcset="img/my_photo.webp"> -->
-                        <img src="img/my_main_photo.jpg" alt="photo">
-                    </picture>
-                </div>
-                <div class="about__descr">
-                    <h2 class="title title_fz16 about__title">Про меня</h2>
-                    <div class="title title_fz36 about__subtitle"> Меня зовут Артём</div>
-                    <div class="divider"></div>
-                    <p class='about__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus voluptates
-                        quia dolorum
-                        nesciunt hic nulla distinctio quasi nemo deserunt, quam, reiciendis vel doloremque quis non
-                        neque ipsam temporibus? Necessitatibus, nihil.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a dicta iure corporis nam
-                        eveniet modi soluta eaque id quis laborum eius, dignissimos tenetur doloribus voluptas quo
-                        expedita at iusto!</p>
-                </div>
-                <div class="about__skills">
-                    <div class="about__skill">
-                        <div class='about__skill-circle'>
-                            <img src="icons/about_me/web_development.svg" alt="web-dev">
-                        </div>
-                        <div>
-                            <div class="title title_fz16">Web-разработка</div>
-                            <div class="about__skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Quaerat deleniti nam vel error repellendus et consequatur perferendis, est eum. Quam
-                                ratione quae quas velit maiores nulla ipsum dignissimos sapiente maxime.</div>
-                        </div>
-                    </div>
-                    <div class="about__skill">
-                        <div class='about__skill-circle about__skill-circle_pl12'>
-                            <img src="icons/about_me/mobile_dev.svg" alt="web-mob">
-                        </div>
-                        <div>
-                            <div class="title title_fz16">Разработка приложений</div>
-                            <div class="about__skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Quaerat deleniti nam vel error repellendus et consequatur perferendis, est eum. Quam
-                                ratione quae quas velit maiores nulla ipsum dignissimos sapiente maxime.</div>
-                        </div>
-                    </div>
-                    <div class="about__skill">
-                        <div class='about__skill-circle '>
-                            <img src="icons/about_me/design.svg" alt="design">
-                        </div>
-                        <div>
-                            <div class="title title_fz16">Дизайн</div>
-                            <div class="about__skill-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Quaerat deleniti nam vel error repellendus et consequatur perferendis, est eum. Quam
-                                ratione quae quas velit maiores nulla ipsum dignissimos sapiente maxime.</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="contacts wow fadeInUp " id="contacts" data-wow-duration='1s'>
         <div class="container">
             <div class="contacts__wrapper">
@@ -521,8 +611,14 @@
                             <img src="icons/social/whatsapp.svg" alt="whatsapp">
                         </a>
                     </div>
+                    <div class="contacts__phone">
+                        <a href=”tel:+79164075291”>Моб. тел: +7-916-407-52-91</a>
+                    </div>
                     <div class="title title_fz14 contacts__text">
                         Или оставьте ваши данные и я сам вам напишу:
+                    </div>
+                    <div class="title title_fz20 contacts__text_red">
+                        (Форма не является рабочей, так как GitHub Pages не поддерживает отправку сообщений на почту!)
                     </div>
 
                     <form action="#" class="contacts__form">
@@ -551,6 +647,7 @@
                         </div>
 
                     </form>
+
 
                 </div>
             </div>

@@ -1,7 +1,7 @@
 .promo {
     min-height: 100vh;
     position: relative;
-    background: url('../img/my_main_bg.jpg') no-repeat 100%/cover;
+    background: url('../img/bg.jpg') no-repeat 100%/cover;
     padding-top: 130px;
     object-fit: cover;
     &:after {
@@ -11,7 +11,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent);
         z-index: 1;
         }
 
@@ -26,7 +26,7 @@
     &__subtitle {
         position: relative;
         padding-left: 10px;
-        color: black;
+        color: white;
         z-index: 2;
         @include before_circle;
     }
@@ -56,4 +56,13 @@
     //     background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
     //     z-index: 1;
     // }
+    span{
+        font-size: 16px;
+        position: relative;
+        z-index:100;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
 }
