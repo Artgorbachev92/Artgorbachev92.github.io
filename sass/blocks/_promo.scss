@@ -56,12 +56,13 @@
     //     background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);
     //     z-index: 1;
     // }
-    span{
+    p{
         font-size: 16px;
         position: relative;
         z-index:100;
+        color: white;
         a{
-            text-decoration: none;
+            text-decoration: underline;
             color: white;
         }
     }

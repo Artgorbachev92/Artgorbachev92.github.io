@@ -457,13 +457,14 @@ template {
   color: #000;
   text-decoration: none;
 }
-.promo span {
+.promo p {
   font-size: 16px;
   position: relative;
   z-index: 100;
+  color: white;
 }
-.promo span a {
-  text-decoration: none;
+.promo p a {
+  text-decoration: underline;
   color: white;
 }
 
