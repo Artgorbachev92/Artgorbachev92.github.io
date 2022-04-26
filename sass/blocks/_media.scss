@@ -81,7 +81,7 @@
         }
     }
     .promo {
-        background: url(../img/my_main_bg.jpg) no-repeat 40%/cover;
+        background: url(../img/bg.jpg) no-repeat 40%/cover;
         &__title{
             width: 400px;
         }
@@ -165,7 +165,7 @@
         }
     }
     .promo {
-        background: url(../img/my_main_bg.jpg) no-repeat 30%/cover;
+        background: url(../img/bg.jpg) no-repeat 30%/cover;
         &__title {
             line-height: 32px;
             width: 300px;
@@ -204,6 +204,9 @@
         &__skill {
             grid-template-columns: 40px 200px;
             column-gap: 20px;
+        }
+        &__text {
+            font-size: 14px;
         }
     }
     .resume{

@@ -1463,7 +1463,7 @@ template {
   }
 
   .promo {
-    background: url(../img/my_main_bg.jpg) no-repeat 40%/cover;
+    background: url(../img/bg.jpg) no-repeat 40%/cover;
   }
   .promo__title {
     width: 400px;
@@ -1575,7 +1575,7 @@ template {
   }
 
   .promo {
-    background: url(../img/my_main_bg.jpg) no-repeat 30%/cover;
+    background: url(../img/bg.jpg) no-repeat 30%/cover;
   }
   .promo__title {
     line-height: 32px;
@@ -1625,6 +1625,9 @@ template {
     -webkit-column-gap: 20px;
        -moz-column-gap: 20px;
             column-gap: 20px;
+  }
+  .about__text {
+    font-size: 14px;
   }
 
   .resume {
